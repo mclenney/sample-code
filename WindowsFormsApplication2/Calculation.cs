@@ -8,9 +8,9 @@ namespace WindowsFormsApplication2
     {
 
         public double Result = 0;
-        public String Message;
-        public bool IsError;
-        public String CleanEquation;
+        public String Message = string.Empty;
+        public bool IsError = false;
+        public String CleanEquation = string.Empty;
 
         public Calculation(string input)
         {
